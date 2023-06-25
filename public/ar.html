@@ -8,33 +8,37 @@
 </head>
 
 <body>
-  <a-scene mindar-image="imageTargetSrc: ./images/targets.mind; filterMinCF:0.001;" vr-mode-ui="enabled: false"
-    device-orientation-permission-ui="enabled: false">
+  <a-scene mindar-image="imageTargetSrc: ./images/targets.mind" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
     <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
     <a-entity mindar-image-target="targetIndex: 6">
-      <a-box color="green" width="1" height="1" depth="0.5"> </a-box>
+      <a-box color="green" width="1" height="1" depth="0.1"> </a-box>
       <a-plane color="green" opaciy="0.5" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-        <a-entity position="0 0.4 0" rotation="0 0 0" text="value: Jadwal Ruang 410;"></a-entity>
-        <a-entity position="0 0.2 0" rotation="0 0 0" text="value: C-Basis Data, Wildan Budiman Zulfikar S.T., M.Kom;"></a-entity>
-        <a-entity position="0 0.0 0" rotation="0 0 0" text="value: Sistem Operasi, Edi Mulyana S.T., M.T;"></a-entity>
-        <a-entity position="0 -0.2 0" rotation="0 0 0" text="value: Proyek Perangkat Lunak, Wisnu Uriawan S.T., M.Kom;"></a-entity>
+        <a-entity position="0 0.4 0.11" rotation="0 0 0" text="width: 1; value: ->Jadwal Ruang 410 Senin 7/25/2023;"></a-entity>
+        <a-entity position="0 0.3 0.11" rotation="0 0 0" text="width: 1; value: ->(10:20-12:00) C-Basis Data, Wildan Budiman Zulfikar S.T., M.Kom;"></a-entity>
+        <a-entity position="0 0.2 0.11" rotation="0 0 0" text="width: 1; value: ->(12:40-14:20) D-Basis Data, Wildan Budiman Zulfikar S.T., M.Kom;"></a-entity>
+        <a-entity position="0 0.1 0.11" rotation="0 0 0" text="width: 1; value: ->(15:00-16:30) E-Basis Data, Wildan Budiman Zulfikar S.T., M.Kom;"></a-entity>
       </a-plane>
     </a-entity>
     <a-entity mindar-image-target="targetIndex: 7">
+      <a-box color="green" width="1" height="1" depth="0.1"> </a-box>
       <a-plane color="green" opaciy="0.5" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-        <a-entity text="value: Ruang 411;"></a-entity>
-        <a-entity text="value: A-Grafika Komputer, Nur Lukman S.T., M.Kom;"></a-entity>
-        <a-entity text="value: F-Grafika Komputer, Diena Rauda Ramdania S.Pd., M.T., M.Eng;"></a-entity>
+        <a-entity position="0 0.4 0.11" rotation="0 0 0" text="width: 1; value: ->Jadwal Ruang 411 Senin 7/25/2023;"></a-entity>
+        <a-entity position="0 0.3 0.11" rotation="0 0 0" text="width: 1; value: ->(10:20-12:00) A-Sistem Operasi, Edi Mulyana S.T., M.T;"></a-entity>
+        <a-entity position="0 0.2 0.11" rotation="0 0 0" text="width: 1; value: ->(12:40-14:20) B-Sistem Operasi, Edi Mulyana S.T., M.T;"></a-entity>
+        <a-entity position="0 0.1 0.11" rotation="0 0 0" text="width: 1; value: ->(15:00-16:30) C-Sistem Operasi, Edi Mulyana S.T., M.T;"></a-entity>
       </a-plane>
     </a-entity>
     <a-entity mindar-image-target="targetIndex: 8">
-      <a-plane color="green" opaciy="0.5" position="0 0 0" height="0.552" width="1" rotation="0 0 0"></a-plane>
-      <a-entity text="value: Ruang 412"></a-entity>
-      <a-entity text="value: A-Bahasa Indonesia, Dr. Hj. Yeti Heryati. S.Ag., M.Pd.;"></a-entity>
-      <a-entity text="value: B-Bahasa Indonesia, Dr. Hj. Yeti Heryati. S.Ag., M.Pd.;"></a-entity>
-      <a-entity text="value: C-Bahasa Indonesia, Dr. Hj. Yeti Heryati. S.Ag., M.Pd.;"></a-entity>
-      <a-entity text="value: B-Matematika Diskrit, Undang Syaripudin M.Kom;"></a-entity>
-      <a-entity text="value: C-Matematika Diskrit, Undang Syaripudin M.Kom;"></a-entity>
+      <a-box color="green" width="1" height="1" depth="0.1"> </a-box>
+      <a-plane color="green" opaciy="0.5" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+        <a-entity position="0 0.4 0.11" rotation="0 0 0" text="width: 1; value: ->Jadwal Ruang 412 Senin 7/25/2023;"></a-entity>
+        <a-entity position="0 0.3 0.11" rotation="0 0 0"
+          text="width: 1; value: ->(10:20-12:00) D-Proyek Perangkat Lunak, Wisnu Uriawan S.T., M.Kom;"></a-entity>
+        <a-entity position="0 0.2 0.11" rotation="0 0 0"
+          text="width: 1; value: ->(12:40-14:20) E-Proyek Perangkat Lunak, Wisnu Uriawan S.T., M.Kom;"></a-entity>
+        <a-entity position="0 0.1 0.11" rotation="0 0 0"
+          text="width: 1; value: ->(15:00-16:30) F-Proyek Perangkat Lunak, Wisnu Uriawan S.T., M.Kom;"></a-entity>
+      </a-plane>
     </a-entity>
   </a-scene>
 </body>
